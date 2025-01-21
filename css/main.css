@@ -65,6 +65,7 @@ body {
   height: 40%;
   background: none;
   z-index: 101;
+  opacity: 0%;
   border: none;
   font-size: 0.1px;
 }
