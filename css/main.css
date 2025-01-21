@@ -45,6 +45,7 @@ body {
   opacity: 0.7;
 }
 .container {
+  max-width: 100%;
   width: 100%;
   padding-left: 0;
   padding-right: 0;
@@ -225,6 +226,42 @@ body {
     background: none;
     border: none;
     font-size: 0.1px;
+  }
+  .container {
+    width: 100vw;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .container .ftont {
+    position: absolute;
+    animation: cloud 5s infinite;
+    height: 100%;
+    width: 100vw;
+    left: 0;
+    z-index: 100;
+  }
+  #resultCard .ftont {
+    width: 100vw;
+    position: absolute;
+    animation: cloud 5s infinite;
+    z-index: 10;
+  }
+  @keyframes cloud {
+    0% {
+      top: 0;
+    }
+    20% {
+      top: 3%;
+    }
+    60% {
+      top: 1%;
+    }
+    80% {
+      top: -2%;
+    }
+    100% {
+      top: 0%;
+    }
   }
   #resultCard .img {
     width: 100%;
