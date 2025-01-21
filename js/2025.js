@@ -4,16 +4,16 @@ const resultCard = document.getElementById("resultCard");
 const instergram = document.getElementById("instergram");
 // 圖片的清單與機率
 const cards = [
-  { src: "./img/超吉.jpg", chance: 0.5 }, // 0.5% 機率
-  { src: "./img/愛情.jpg", chance: 9.5 }, // 9.5% 機率
-  { src: "./img/金錢.jpg", chance: 6 }, // 6% 機率
-  { src: "./img/友誼.jpg", chance: 15 }, // 15% 機率
-  { src: "./img/蛇年.jpg", chance: 3 }, // 3% 機率
-  { src: "./img/健康.jpg", chance: 12 }, // 12% 機率
-  { src: "./img/權利.jpg", chance: 15 }, // 15% 機率
-  { src: "./img/幸運.jpg", chance: 11 }, // 11% 機率
-  { src: "./img/睡眠.jpg", chance: 20 }, // 20% 機率
-  { src: "./img/幸福.jpg", chance: 18 }, // 18% 機率
+  { src: "./img/超吉.JPG", chance: 0.5 }, // 0.5% 機率
+  { src: "./img/愛情.JPG", chance: 9.5 }, // 9.5% 機率
+  { src: "./img/金錢.JPG", chance: 6 }, // 6% 機率
+  { src: "./img/友誼.JPG", chance: 15 }, // 15% 機率
+  { src: "./img/蛇年.JPG", chance: 3 }, // 3% 機率
+  { src: "./img/健康.JPG", chance: 12 }, // 12% 機率
+  { src: "./img/權利.JPG", chance: 15 }, // 15% 機率
+  { src: "./img/幸運.JPG", chance: 11 }, // 11% 機率
+  { src: "./img/睡眠.JPG", chance: 20 }, // 20% 機率
+  { src: "./img/幸福.JPG", chance: 18 }, // 18% 機率
 ];
 var startButton = document.getElementById("start");
 var readyButton = document.getElementById("ready");
